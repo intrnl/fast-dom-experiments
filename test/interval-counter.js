@@ -29,7 +29,7 @@ export default __define('x-app', {
 		__append($fragment, $root);
 
 		/// {count}
-		__text(() => (__unref(count)), $marker1);
+		__text($marker1, () => (__unref(count)));
 		////// END: TEMPLATE
 	},
 });

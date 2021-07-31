@@ -61,7 +61,7 @@ export default __define('x-app', {
 		};
 		/// {/if}
 
-		__show(() => (__unref(show) ? $block1 : $block2), $marker1);
+		__show($marker1, () => (__unref(show) ? $block1 : $block2));
 		////// END: TEMPLATE
 	},
 });

@@ -42,8 +42,8 @@ export default __define('x-app', {
       let [$fragment, $marker1, $marker2, $marker3] = __clone($template2);
       __after($fragment, $root);
 
-      __text(() => (__unref(data).name.first), $marker1);
-      __text(() => (__unref(data).name.last), $marker2);
+      __text($marker1, () => (__unref(data).name.first));
+      __text($marker2, () => (__unref(data).name.last));
 
       return $marker3;
     };
@@ -56,7 +56,7 @@ export default __define('x-app', {
     };
     /// {/if}
 
-    __show(() => (__unref(data).name ? $block1 : $block2), $marker1);
+    __show($marker1, () => (__unref(data).name ? $block1 : $block2));
     ////// END: IF BLOCK
 		////// END: TEMPLATE
   },
