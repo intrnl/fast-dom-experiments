@@ -47,6 +47,7 @@ export default __define('x-app', {
 
 			return $marker1;
 		};
+
 		let $block2 = ($root, item) => {
 			let [$fragment, $marker1, $marker2, $marker3] = __clone($template3);
 			__after($fragment, $root);
