@@ -1,0 +1,9 @@
+{
+	"type": "module",
+	"dependencies": {
+		"@vue/reactivity": "npm:@knightly/vue__reactivity@3.2.0-knightly-master.202107300103"
+	},
+	"devDependencies": {
+		"esbuild": "^0.12.17"
+	}
+}

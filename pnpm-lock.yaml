@@ -1,0 +1,29 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@vue/reactivity': npm:@knightly/vue__reactivity@3.2.0-knightly-master.202107300103
+  esbuild: ^0.12.17
+
+dependencies:
+  '@vue/reactivity': /@knightly/vue__reactivity/3.2.0-knightly-master.202107300103
+
+devDependencies:
+  esbuild: 0.12.17
+
+packages:
+
+  /@knightly/vue__reactivity/3.2.0-knightly-master.202107300103:
+    resolution: {integrity: sha512-Jzf7m/Y3HzEa3eSe3O7btBR1mClTdB0XAHsJ1u86/XRj4zIOO0AUgejk+dm4MKfUgsk2ohUytTZQg/2qYWraCA==}
+    dependencies:
+      '@vue/shared': /@knightly/vue__shared/3.2.0-knightly-master.202107300103
+    dev: false
+
+  /@knightly/vue__shared/3.2.0-knightly-master.202107300103:
+    resolution: {integrity: sha512-HxyzcBbWc3jAl2D5MEhemVrHLkBSqMtA4VP5FrvFthywMUgahE4fgi3aaP1rhip/U7/3WAkujT2U7J+j3Zz+4g==}
+    dev: false
+
+  /esbuild/0.12.17:
+    resolution: {integrity: sha512-GshKJyVYUnlSXIZj/NheC2O0Kblh42CS7P1wJyTbbIHevTG4jYMS9NNw8EOd8dDWD0dzydYHS01MpZoUcQXB4g==}
+    hasBin: true
+    requiresBuild: true
+    dev: true
