@@ -9,8 +9,7 @@
 // </script>
 //
 // {#each items as item}
-//   <div>{item.first}</div>
-//   <div>{item.last}</div>
+//   <div>{item.first} {item.last}</div>
 // {:else}
 //   <div>List is empty.</div>
 // {/each}
@@ -24,7 +23,7 @@ import { unref as __unref, computed as __computed } from '../lib/reactivity';
 let $template1 = __template('<!>');
 let $template2 = __template('<!><!>');
 let $template3 = __template('<div>List is empty.</div><!>');
-let $template4 = __template('<div><!></div> <div><!></div><!>');
+let $template4 = __template('<div><!> <!></div><!>');
 
 export default __define('x-app', {
 	setup ($props, $root, $host) {
