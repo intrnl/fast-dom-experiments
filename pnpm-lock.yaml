@@ -1,27 +1,27 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@vue/reactivity': npm:@knightly/vue__reactivity@3.2.0-knightly-master.202107300103
-  '@vue/shared': npm:@knightly/vue__shared@3.2.0-knightly-master.202107300103
+  '@vue/reactivity': 3.2.1
+  '@vue/shared': 3.2.1
   esbuild: ^0.12.17
 
 dependencies:
-  '@vue/reactivity': /@knightly/vue__reactivity/3.2.0-knightly-master.202107300103
-  '@vue/shared': /@knightly/vue__shared/3.2.0-knightly-master.202107300103
+  '@vue/reactivity': 3.2.1
+  '@vue/shared': 3.2.1
 
 devDependencies:
   esbuild: 0.12.17
 
 packages:
 
-  /@knightly/vue__reactivity/3.2.0-knightly-master.202107300103:
-    resolution: {integrity: sha512-Jzf7m/Y3HzEa3eSe3O7btBR1mClTdB0XAHsJ1u86/XRj4zIOO0AUgejk+dm4MKfUgsk2ohUytTZQg/2qYWraCA==}
+  /@vue/reactivity/3.2.1:
+    resolution: {integrity: sha512-4Lja2KmyiKvuraDed6dXK2A6+r/7x7xGDA7vVR2Aqc8hQVu0+FWeVX+IBfiVOSpbZXFlHLNmCBFkbuWLQSlgxg==}
     dependencies:
-      '@vue/shared': /@knightly/vue__shared/3.2.0-knightly-master.202107300103
+      '@vue/shared': 3.2.1
     dev: false
 
-  /@knightly/vue__shared/3.2.0-knightly-master.202107300103:
-    resolution: {integrity: sha512-HxyzcBbWc3jAl2D5MEhemVrHLkBSqMtA4VP5FrvFthywMUgahE4fgi3aaP1rhip/U7/3WAkujT2U7J+j3Zz+4g==}
+  /@vue/shared/3.2.1:
+    resolution: {integrity: sha512-INN92dVBNgd0TW9BqfQQKx/HWGCHhUUbAV5EZ5FgSCiEdwuZsJbGt1mdnaD9IxGhpiyOjP2ClxGG8SFp7ELcWg==}
     dev: false
 
   /esbuild/0.12.17:

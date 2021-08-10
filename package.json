@@ -1,8 +1,8 @@
 {
 	"type": "module",
 	"dependencies": {
-		"@vue/reactivity": "npm:@knightly/vue__reactivity@3.2.0-knightly-master.202107300103",
-		"@vue/shared": "npm:@knightly/vue__shared@3.2.0-knightly-master.202107300103"
+		"@vue/reactivity": "3.2.1",
+		"@vue/shared": "3.2.1"
 	},
 	"devDependencies": {
 		"esbuild": "^0.12.17"
