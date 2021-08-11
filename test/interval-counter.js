@@ -7,8 +7,7 @@
 //
 // <div>{count}</div>
 
-import { ref } from '../lib/reactivity';
-import { onDestroy } from '../lib/component';
+import { ref, onDestroy } from '../lib';
 
 import { define as __define } from '../lib/component';
 import { template as __template, clone as __clone, append as __append } from '../lib/dom';
