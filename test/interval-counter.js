@@ -10,11 +10,11 @@
 import { ref, onDestroy } from '../lib';
 
 import { define as __define } from '../lib/component';
-import { template as __template, clone as __clone, append as __append } from '../lib/dom';
+import { html as __html, clone as __clone, append as __append } from '../lib/dom';
 import { text as __text } from '../lib/logic';
 import { unref as __unref } from '../lib/reactivity';
 
-let $template1 = __template('<div><!></div>');
+let $template1 = __html('<div><!></div>');
 
 export default __define('x-app', {
 	setup ($props, $root, $host) {

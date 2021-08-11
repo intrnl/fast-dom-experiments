@@ -20,13 +20,13 @@
 import { ref } from '../lib/reactivity';
 
 import { define as __define } from '../lib/component';
-import { template as __template, clone as __clone, append as __append, after as __after } from '../lib/dom';
+import { html as __html, clone as __clone, append as __append, after as __after } from '../lib/dom';
 import { show as __show } from '../lib/logic';
 import { unref as __unref } from '../lib/reactivity';
 
-let $template1 = __template('<button>toggle</button> <!>');
-let $template2 = __template('<div>Foo</div> <div>Bar</div><!>');
-let $template3 = __template('<div>Baz</div> <div>Qux</div><!>');
+let $template1 = __html('<button>toggle</button> <!>');
+let $template2 = __html('<div>Foo</div> <div>Bar</div><!>');
+let $template3 = __html('<div>Baz</div> <div>Qux</div><!>');
 
 export default __define('x-app', {
 	setup ($props, $root, $host) {

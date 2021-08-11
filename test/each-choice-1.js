@@ -15,15 +15,15 @@
 // {/each}
 
 import { define as __define } from '../lib/component';
-import { template as __template, clone as __clone, append as __append, after as __after } from '../lib/dom';
+import { html as __html, clone as __clone, append as __append, after as __after } from '../lib/dom';
 import { show as __show, each as __each, text as __text } from '../lib/logic';
 import { unref as __unref, computed as __computed } from '../lib/reactivity';
 
 // Choice #1: Put each block inside of conditional
-let $template1 = __template('<!>');
-let $template2 = __template('<!><!>');
-let $template3 = __template('<div>List is empty.</div><!>');
-let $template4 = __template('<div><!> <!></div><!>');
+let $template1 = __html('<!>');
+let $template2 = __html('<!><!>');
+let $template3 = __html('<div>List is empty.</div><!>');
+let $template4 = __html('<div><!> <!></div><!>');
 
 export default __define('x-app', {
 	setup ($props, $root, $host) {
